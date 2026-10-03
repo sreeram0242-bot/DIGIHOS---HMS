@@ -1,24 +1,66 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+
+# ========================
+# Build Output
+# ========================
+dist/
+dist-ssr/
+
+# ========================
 # Logs
-logs
+# ========================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+err_node.log
+run_test.log
+server_output.log
 
-node_modules
-dist
-dist-ssr
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.local
+.env.production
+.env.staging
 *.local
 
-# Editor directories and files
+# ========================
+# Local Database / Data
+# ========================
+server/data/
+
+# ========================
+# Windows Shortcut Files
+# ========================
+*.lnk
+*.vbs
+test_hide.vbs
+ACTIVATE_DIGIHOS.vbs
+STOP_DIGIHOS.vbs
+
+# ========================
+# OS & Editor Files
+# ========================
+.DS_Store
+Thumbs.db
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ========================
+# Misc
+# ========================
+*.local
