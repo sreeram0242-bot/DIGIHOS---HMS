@@ -1,0 +1,3 @@
+@echo off
+echo Starting DIGIHOS Hospital System (Backend on 5000 + Frontend on 5173)...
+npm run all
